@@ -37,8 +37,6 @@ node analog-rsl.cjs fresh-demo
 
 已安装 npm 的环境也可使用 `npm start`、`npm run design`、`npm run train` 和 `npm test`。项目无第三方依赖，不需要先执行 `npm install`。`npm test` 验证模型与归档实验，不修改你保存的策略。
 
-上传 GitHub 的步骤见 [PUBLISH.md](PUBLISH.md)。
-
 ## 修改设计目标
 
 `spec.json` 使用下列字段，数值必须为有限正数：
