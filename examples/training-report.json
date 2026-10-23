@@ -1,0 +1,368 @@
+{
+  "model": "educational-cs-v1",
+  "createdAt": "2026-10-23T07:27:20.300Z",
+  "policy": {
+    "model": "educational-cs-v1",
+    "version": 2,
+    "mu": [
+      -1.3662879046067384,
+      -0.24185377267690342,
+      -0.46012126353951477,
+      -2.5825476875380096
+    ],
+    "sd": [
+      1.1296681931479637,
+      1.5297634899053596,
+      0.7986982426608811,
+      0.9670849818315069
+    ]
+  },
+  "training": {
+    "seed": 1101,
+    "tasks": 28,
+    "candidatesPerTask": 80
+  },
+  "validation": {
+    "seed": 2202,
+    "tasks": 24,
+    "budget": 32
+  },
+  "test": {
+    "seed": 3303,
+    "before": {
+      "tasks": 48,
+      "simulationsPerTask": 32,
+      "passRate": 0.9583333333333334,
+      "meanLoss": 0.035320439674366384
+    },
+    "after": {
+      "tasks": 48,
+      "simulationsPerTask": 32,
+      "passRate": 1,
+      "meanLoss": 0.013158135127686143
+    }
+  },
+  "history": [
+    {
+      "round": 1,
+      "accepted": true,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9583333333333334,
+        "meanLoss": 0.029903480546667808
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.017151602243000084
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 1,
+        "mu": [
+          -0.9905269140743823,
+          0.008243757112149483,
+          -0.37347783343462637,
+          -1.1628380027157244
+        ],
+        "sd": [
+          1.319179632209853,
+          1.5105428825856615,
+          1.0325135448542464,
+          1.2541716837889922
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.017151602243000084
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 2,
+        "mu": [
+          -1.3662879046067384,
+          -0.24185377267690342,
+          -0.46012126353951477,
+          -2.5825476875380096
+        ],
+        "sd": [
+          1.1296681931479637,
+          1.5297634899053596,
+          0.7986982426608811,
+          0.9670849818315069
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.02167541859914685
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.4045207974951293,
+          -0.5258682705142291,
+          -0.47176484520198636,
+          -3.6749620445983435
+        ],
+        "sd": [
+          0.9743327176396333,
+          1.50135961865328,
+          0.65712800918054,
+          0.7537489053887514
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9583333333333334,
+        "meanLoss": 0.025996034342561664
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.3703461746125194,
+          -0.6000246724029102,
+          -0.3976450229151509,
+          -3.717396787986086
+        ],
+        "sd": [
+          0.9483728321511977,
+          1.5043922186066112,
+          0.6628938263245825,
+          0.7658754736747888
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.02105745916637418
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.370159124412071,
+          -0.5596040774711893,
+          -0.4378613903017078,
+          -3.808367043411719
+        ],
+        "sd": [
+          0.9316301427273563,
+          1.51454511595364,
+          0.6594203388511652,
+          0.839040106516065
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.017473941318762922
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.3278862525714186,
+          -0.30181848487231216,
+          -0.4788074148632989,
+          -3.817920038899439
+        ],
+        "sd": [
+          0.9346965119450774,
+          1.4981114164892757,
+          0.6382892843121346,
+          0.87097861440874
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.025125375327766045
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.2795368160524367,
+          -0.4820911605172656,
+          -0.3920856133174453,
+          -3.6628538347679047
+        ],
+        "sd": [
+          0.9814972397865043,
+          1.443737660592111,
+          0.5989638460985776,
+          0.7356452854303975
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.020193453216192078
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.3666415617934156,
+          -0.5163011936812713,
+          -0.5369530102321785,
+          -3.721209148888579
+        ],
+        "sd": [
+          1.009023600435814,
+          1.5504439725789538,
+          0.65961228851711,
+          0.7711098058905377
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.022024492498096782
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.3672854326635886,
+          -0.3886355731521654,
+          -0.4743507458439893,
+          -3.731013361304896
+        ],
+        "sd": [
+          0.9322396190542883,
+          1.4467157801166421,
+          0.6714324431491722,
+          0.787208608380919
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "accepted": false,
+      "old": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 1,
+        "meanLoss": 0.013610815570795706
+      },
+      "candidate": {
+        "tasks": 24,
+        "simulationsPerTask": 32,
+        "passRate": 0.9166666666666666,
+        "meanLoss": 0.018802286375243272
+      },
+      "candidatePolicy": {
+        "model": "educational-cs-v1",
+        "version": 3,
+        "mu": [
+          -1.2808314543814074,
+          -0.37739994536156063,
+          -0.4724217917932958,
+          -3.679482482891486
+        ],
+        "sd": [
+          0.8894625636675922,
+          1.5330285501802967,
+          0.6437299060472059,
+          0.7829374505966622
+        ]
+      }
+    }
+  ],
+  "caveat": "Analytical educational MOS model; synthetic task families and demonstration corners; no PDK/SPICE/silicon validation. Repeated validation may overfit. Test set must be replaced after tuning based on its results."
+}

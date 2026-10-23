@@ -1,0 +1,11 @@
+* Educational resistor-loaded common-source amplifier; NOT a foundry PDK
+* Parameter values match the TT DC model; AC parasitics are lumped approximations
+VDD vdd 0 1.8
+VIN gate 0 DC 0.6551933641026813 AC 1
+RD vdd out 22376.571120230143
+M1 out gate 0 0 NDEMO W=3.3568750958440727u L=0.3198802071667156u
+COUT out 0 8.068462813027142e-13
+.model NDEMO NMOS (LEVEL=1 VTO=0.45 KP=0.0002 LAMBDA=0.10941596014960267)
+.op
+.ac dec 80 1 1G
+.end
