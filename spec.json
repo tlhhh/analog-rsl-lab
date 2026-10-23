@@ -1,0 +1,8 @@
+{
+  "vdd": 1.8,
+  "gainDb": 16,
+  "bwMHz": 4,
+  "clPf": 0.8,
+  "pmaxMw": 0.8,
+  "swingV": 0.15
+}

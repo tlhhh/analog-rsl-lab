@@ -1,0 +1,15 @@
+{
+  "name": "analog-rsl-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Educational analog IC sizing with cross-task CEM policy learning and validation-gated updates",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node analog-rsl.cjs demo",
+    "train": "node analog-rsl.cjs train 10",
+    "design": "node analog-rsl.cjs design spec.json",
+    "test": "node verify.cjs"
+  }
+}
